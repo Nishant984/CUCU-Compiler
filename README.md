@@ -32,9 +32,9 @@ To compile and execute the CUCU compiler:
      Copy code
     ./cucu Sample2.cu
 #### Output
--lexer.txt: Contains all tokens identified by the lexer.
--parser.txt: Shows parsing steps and statements identified by the parser.
--Errors are reported as "Syntax Error" if the code contains syntax errors.
+- **lexer.txt**: Contains all tokens identified by the lexer.
+- **parser.txt**: Shows parsing steps and statements identified by the parser.
+- Errors are reported as "Syntax Error" if the code contains syntax errors.
 
 #### Summary
 The CUCU Compiler project explores fundamental concepts in compiler design, including lexical analysis, parsing, and error handling. It provides practical experience in implementing a compiler for a basic programming language.
