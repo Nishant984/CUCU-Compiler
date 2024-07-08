@@ -22,13 +22,12 @@ To compile and execute the CUCU compiler:
    flex cucu.l
    bison -d cucu.y
    gcc cucu.tab.c lex.yy.c -lfl -o cucu
-3.Execute the compiler with correct syntax:
-     ```bash
-         
-         Copy code
-        ./cucu Sample1.cu
-4.Execute the compiler with incorrect syntax:
-     
+3. Execute the compiler with correct syntax:
+   ```bash
+   Copy code
+   ./cucu Sample1.cu
+4. Execute the compiler with incorrect syntax:
+   ```bash
      Copy code
     ./cucu Sample2.cu
 #### Output
