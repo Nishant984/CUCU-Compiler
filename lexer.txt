@@ -1,0 +1,89 @@
+TYPE : int
+ID : main
+PARANTHESIS : (
+PARANTHESIS : )
+BRACES : {
+TYPE : int
+ID : a
+SEMI : ;
+TYPE : int
+ID : b
+SEMI : ;
+TYPE : int
+ID : c
+SEMI : ;
+TYPE : int
+ID : discriminant
+SEMI : ;
+TYPE : int
+ID : root1
+SEMI : ;
+TYPE : int
+ID : root2
+SEMI : ;
+TYPE : int
+ID : realPart
+SEMI : ;
+TYPE : int
+ID : imagPart
+SEMI : ;
+ID : discriminant
+ASSIGN : =
+ID : b
+ARITHEMATIC OPERATOR : *
+ID : b
+ARITHEMATIC OPERATOR : -
+NUM : 4
+ARITHEMATIC OPERATOR : *
+ID : a
+ARITHEMATIC OPERATOR : *
+ID : c
+SEMI : ;
+KEYWORD : if
+PARANTHESIS : (
+ID : discriminant
+RELATIONAL OPERATOR : !=
+NUM : 0
+PARANTHESIS : )
+BRACES : {
+ID : root1
+ASSIGN : =
+PARANTHESIS : (
+ID : b
+ARITHEMATIC OPERATOR : +
+ID : discriminant
+PARANTHESIS : )
+ARITHEMATIC OPERATOR : /
+PARANTHESIS : (
+NUM : 2
+ARITHEMATIC OPERATOR : *
+ID : a
+PARANTHESIS : )
+SEMI : ;
+ID : root2
+ASSIGN : =
+PARANTHESIS : (
+ID : b
+ARITHEMATIC OPERATOR : -
+ID : discriminant
+PARANTHESIS : )
+ARITHEMATIC OPERATOR : /
+PARANTHESIS : (
+NUM : 2
+ARITHEMATIC OPERATOR : *
+ID : a
+PARANTHESIS : )
+SEMI : ;
+BRACES : }
+KEYWORD : else
+KEYWORD : if
+PARANTHESIS : (
+ID : discriminant
+RELATIONAL OPERATOR : ==
+NUM : 0
+PARANTHESIS : )
+BRACES : {
+ID : root1
+ASSIGN : =
+ID : root2
+ASSIGN : =

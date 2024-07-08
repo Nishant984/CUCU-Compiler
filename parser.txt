@@ -1,0 +1,45 @@
+  : Local Variable Declaration
+  : Local Variable Declaration
+  : Local Variable Declaration
+  : Local Variable Declaration
+  : Local Variable Declaration
+  : Local Variable Declaration
+  : Local Variable Declaration
+  : Local Variable Declaration
+Variable: b 
+Variable: b 
+Operator : * 
+Constant: 4 
+Variable: a 
+Operator : * 
+Variable: c 
+Operator : * 
+Operator : - 
+ = discriminant 
+  : Assignment Statement
+Variable: discriminant 
+Constant: 0 
+Operator : != 
+Variable: b 
+Variable: discriminant 
+Operator : + 
+Constant: 2 
+Variable: a 
+Operator : * 
+Operator : / 
+ = root1 
+  : Assignment Statement
+Variable: b 
+Variable: discriminant 
+Operator : - 
+Constant: 2 
+Variable: a 
+Operator : * 
+Operator : / 
+ = root2 
+  : Assignment Statement
+Variable: discriminant 
+Constant: 0 
+Operator : == 
+Variable: root2 
+syntax error 
