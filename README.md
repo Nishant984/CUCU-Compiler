@@ -14,6 +14,7 @@ The following folder contains the below-mentioned files:-
 8. cucu
 
 The Following Instructions Should Be Followed While Running The Program :
+
     A. Open the terminal in the directory 2020CSB1097 and Enter the following commands to run the program :
         1. flex cucu.l
         2. bison -d cucu.y
